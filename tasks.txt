@@ -1,0 +1,15 @@
+Try to test the connectivity between all the hosts.
+What would happen? How would you solve the problem? (40 points)Requirements:
+
+a) Please provide a python code file named as “hw3.py” creating this topology.
+b) Use the command “sudo python hw3.py”, and then put the screenshots of the process creating
+this topology.
+c) Use the command “pingall” after process b) in mininet to test the connectivity between all the
+hosts. Put the output screenshots on the Ubuntu terminal in your report and talk about what
+happened.
+d) Try to use ovs-ofctl command to help solve the problem (Hint: ovs-ofctl can add flow rules
+on your switches). A shell script named as “hw3.sh” is also required, which includes all the
+ovs-ofctl commands you need to solve the problem
+e) Open a new terminal and use the command “sh hw3.sh” and then repeat the process c) above
+to test the connectivity between all the hosts again. Put the output screenshots on the Ubuntu
+terminal in your report and talk about your thinking.
